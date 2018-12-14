@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="default_moontext">
+        <item>"新月"</item> //0
+        <item>"二日月"</item> //1
+        <item>"三日月"</item> //2
+        <item>""</item> //3
+        <item>""</item> //4
+        <item>""</item> //5
+        <item>""</item> //6
+        <item>"上弦"</item> //7
+        <item>""</item> //8
+        <item>""</item> //9
+        <item>"十日余りの月"</item> //10
+        <item>""</item> //11
+        <item>"十三夜"</item> //12
+        <item>"小望月"</item> //13
+        <item>"満月"</item> //14
+        <item>"十六夜"</item> //15
+        <item>"立待月"</item> //16
+        <item>"居町月"</item> //17
+        <item>"寝待月"</item> //18
+        <item>"有明月"</item> //19
+        <item>"二十三屋夜"</item> //20
+        <item>"下弦"</item> //21
+        <item>""</item> //22
+        <item>""</item> //23
+        <item>""</item> //24
+        <item>"二十六夜"</item> //25
+        <item>"下弦の三日月"</item> //26
+        <item>"晦"</item> //27
+    </array>
+</resources>

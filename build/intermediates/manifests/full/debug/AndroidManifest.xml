@@ -50,7 +50,6 @@
         android:icon="@mipmap/app_icon"
         android:isGame="true"
         android:label="@string/app_name"
-        android:testOnly="true"
         android:theme="@style/UnityThemeSelector" >
         <activity
             android:name="jp.ac.fjbseisa.UnityPlayerActivity"

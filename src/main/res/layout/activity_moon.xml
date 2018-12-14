@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Moon">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/MoonTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:gravity="right"
+            android:text="読み込み中"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="172dp"
+            tools:layout_editor_absoluteY="61dp" />
+
+        <ImageView
+            android:id="@+id/Moonimg"
+            android:layout_width="match_parent"
+            android:layout_height="339dp"
+            android:background="@android:color/black"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="61dp" />
+
+        <TextView
+            android:id="@+id/Mooninfo"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:text="読み込み中"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="455dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Minus"
+                android:layout_width="225px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/my_button"
+                android:text="読み込み中"
+
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Plus"
+                android:layout_width="225px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/my_button"
+
+                android:text="読み込み中"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

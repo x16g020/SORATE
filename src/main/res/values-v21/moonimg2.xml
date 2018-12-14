@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="default_moonimg2">
+        <item>@mipmap/tuki00</item>
+        <item>@mipmap/tuki01</item>
+        <item>@mipmap/tuki02</item>
+        <item>@mipmap/tuki03</item>
+        <item>@mipmap/tuki04</item>
+        <item>@mipmap/tuki05</item>
+        <item>@mipmap/tuki06</item>
+        <item>@mipmap/tuki07</item>
+        <item>@mipmap/tuki08</item>
+        <item>@mipmap/tuki09</item>
+        <item>@mipmap/tuki10</item>
+        <item>@mipmap/tuki11</item>
+        <item>@mipmap/tuki12</item>
+        <item>@mipmap/tuki13</item>
+        <item>@mipmap/tuki14</item>
+        <item>@mipmap/tuki15</item>
+        <item>@mipmap/tuki16</item>
+        <item>@mipmap/tuki17</item>
+        <item>@mipmap/tuki18</item>
+        <item>@mipmap/tuki19</item>
+        <item>@mipmap/tuki20</item>
+        <item>@mipmap/tuki21</item>
+        <item>@mipmap/tuki22</item>
+        <item>@mipmap/tuki23</item>
+        <item>@mipmap/tuki24</item>
+        <item>@mipmap/tuki25</item>
+        <item>@mipmap/tuki26</item>
+        <item>@mipmap/tuki27</item>
+    </array>
+</resources>

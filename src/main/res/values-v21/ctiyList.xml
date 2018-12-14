@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="default_ctiyList">
+        <item>2130037</item> //0 北海道
+        <item>2130656</item> //1 青森県
+        <item>2112518</item> //2 岩手県
+        <item>2111888</item> //3 宮城県
+        <item>2113124</item> //4 秋田県
+        <item>2110556</item> //5 山形県
+        <item>1863958</item> //6 福岡県
+        <item>2112922</item> //7 福島県
+        <item>2112669</item> //8 茨城県
+        <item>1850310</item> //9 栃木県
+        <item>1853226</item> //10 埼玉県
+        <item>2113014</item> //11 千葉県
+        <item>1850147</item> //12 東京都
+        <item>""</item> //13
+        <item>""</item> //14
+        <item>""</item> //15
+        <item>""</item> //16
+        <item>""</item> //17
+        <item>""</item> //18
+        <item>""</item> //19
+        <item>""</item> //20
+        <item>""</item> //21
+        <item>""</item> //22
+        <item>""</item> //23
+        <item>""</item> //24
+        <item>""</item> //25
+        <item>""</item> //26
+        <item>""</item> //27
+    </array>
+</resources>

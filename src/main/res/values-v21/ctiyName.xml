@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="default_ctiyNameList">
+        <item>"北海道"</item> //00
+        <item>"青森県"</item> //01
+        <item>"岩手県"</item> //02
+        <item>"宮城県"</item> //03
+        <item>"秋田県"</item> //04
+        <item>"山形県"</item> //05
+        <item>"福島県"</item> //06
+        <item>"茨城県"</item> //07
+        <item>"栃木県"</item> //08
+        <item>"群馬県"</item> //09
+        <item>"埼玉県"</item> //10
+        <item>"千葉県"</item> //11
+        <item>"東京都"</item> //12
+        <item>"神奈川県"</item> //13
+        <item>"新潟県"</item> //14
+        <item>"富山県"</item> //15
+        <item>"石川県"</item> //16
+        <item>"福井県"</item> //17
+        <item>"山梨県"</item> //18
+        <item>"長野県"</item> //19
+        <item>"岐阜県"</item> //20
+        <item>"静岡県"</item> //21
+        <item>"愛知県"</item> //22
+        <item>"三重県"</item> //23
+        <item>"滋賀県"</item> //24
+        <item>"京都府"</item> //25
+        <item>"大阪府"</item> //26
+        <item>"兵庫県"</item> //27
+        <item>"奈良県"</item> //28
+        <item>"和歌山県"</item> //29
+        <item>"鳥取県"</item> //30
+        <item>"島根県"</item> //31
+        <item>"岡山県"</item> //32
+        <item>"広島県"</item> //33
+        <item>"山口県"</item> //34
+        <item>"徳島県"</item> //35
+        <item>"香川県"</item> //36
+        <item>"愛知県"</item> //37
+        <item>"高知県"</item> //38
+        <item>"福岡県"</item> //39
+        <item>"佐賀県"</item> //40
+        <item>"長崎県"</item> //41
+        <item>"熊本県"</item> //42
+        <item>"大分県"</item> //43
+        <item>"宮崎県"</item> //44
+        <item>"鹿児島県"</item> //45
+        <item>"沖縄県"</item> //46
+
+
+
+    </array>
+</resources>

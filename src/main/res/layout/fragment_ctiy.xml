@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CtiyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/Region00"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:text="北海道地方"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="北海道"
+                    />
+
+                <TextView
+                    android:id="@+id/Region01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="東北地方"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="青森県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="岩手県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="宮城県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="秋田県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="山形県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="福島県" />
+
+                <TextView
+                    android:id="@+id/Region02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="関東地方"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="茨城県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="栃木県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="群馬県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="埼玉県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="千葉県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="東京都" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="神奈川県" />
+
+                <TextView
+                    android:id="@+id/Region03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="中部地方"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="新潟県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="富山県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="石川県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="福井県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="山梨県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="長野県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="岐阜県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="静岡県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="愛知県" />
+
+                <TextView
+                    android:id="@+id/Region04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="関西地方"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="三重県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="滋賀県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="京都府" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="大阪府" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="兵庫県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="奈良県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="和歌山県" />
+
+
+                <TextView
+                    android:id="@+id/Region05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="中国地方"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="鳥取県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="島根県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="岡山県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="広島県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="山口県" />
+
+                <TextView
+                    android:id="@+id/Region06"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="四国地方"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="徳島県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="香川県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="愛媛県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="高知県" />
+
+                 <TextView
+                     android:id="@+id/Region07"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:text="九州、沖縄地方"
+                     android:textSize="24sp"
+                     android:textStyle="bold" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="福岡県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="佐賀県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="長崎県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="熊本県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="大分県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="宮崎県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="鹿児島県" />
+
+                <Button
+                    android:textSize="20sp"
+                    android:id="@+id/ctiy47"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="沖縄県" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>
