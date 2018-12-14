@@ -1,5 +1,4 @@
 package jp.ac.fjbseisa;
-
 import android.os.Handler;
 import android.util.Log;
 

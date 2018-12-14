@@ -2,9 +2,9 @@ package jp.ac.fjbseisa;
 
 import android.content.Intent;
 import android.content.res.TypedArray;
-import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;

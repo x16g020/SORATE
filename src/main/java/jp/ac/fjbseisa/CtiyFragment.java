@@ -1,8 +1,8 @@
 package jp.ac.fjbseisa;
 
-
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
+import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -94,7 +94,5 @@ public class CtiyFragment extends DialogFragment implements View.OnClickListener
         Weather w = (Weather)getActivity();
         w.APIWeather(ctiycnt);
         dismiss();
-
     }
-
 }
