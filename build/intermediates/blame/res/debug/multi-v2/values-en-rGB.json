@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\work\\x16g015\\Export\\AR Test000012\\AR Test000012\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
+            "outputFile": "D:\\work\\x16g015\\SORATE\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
             "map": [
                 {
                     "source": "C:\\Users\\x16g015\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f4d8c7809b92959c73a9f6e3f1c7f64\\res\\values-en-rGB\\values-en-rGB.xml",

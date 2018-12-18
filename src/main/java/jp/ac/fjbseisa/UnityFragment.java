@@ -49,7 +49,7 @@ public class UnityFragment extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
 
         if(v.getId()==R.id.b1){
-            ((UnityPlayerActivity)getActivity()).changeFragment(UnityFragment.class);
+            ((UnityPlayerActivity)getActivity()).changeFragment(SelectFragment.class);
         }else if(v.getId()==R.id.b2){
             ((UnityPlayerActivity)getActivity()).changeFragment(MoonFragment.class);
         }else if(v.getId()==R.id.b3){

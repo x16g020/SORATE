@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:2:1-29:12
-MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:2:1-32:12
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:2:1-29:12
+MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:2:1-32:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\882a2b491c7f0e7bcab9c04e2bae3739\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\293a3914792dff8b12d802c6cb004eb3\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\df950bf7f82e9a900d7781e46b6db159\AndroidManifest.xml:17:1-22:12
@@ -33,43 +33,43 @@ MERGED from [com.android.support:interpolator:28.0.0] C:\Users\x16g015\.gradle\c
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\2482151b8625c8d1881e6fb8e9598dfc\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\18571bf17a8dfd8f96a91c67e48553b0\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c445029e29b54c70e70d4bd34478f8b5\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:2:1-29:12
 	package
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:2:70-94
-		INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml
-		INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:2:70-94
+		INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml
+		INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:2:1-29:12
-		INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml
+		INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:2:1-29:12
+		INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:2:95-141
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:2:95-141
 	android:versionCode
-		INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:2:1-29:12
-		INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml
+		INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:2:1-29:12
+		INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:2:11-69
 	android:installLocation
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:2:142-182
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:2:142-182
 supports-screens
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:3:3-163
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:3:3-163
 	android:largeScreens
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:3:78-105
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:3:78-105
 	android:smallScreens
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:3:21-48
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:3:21-48
 	android:normalScreens
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:3:49-77
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:3:49-77
 	android:xlargeScreens
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:3:106-134
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:3:106-134
 	android:anyDensity
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:3:135-160
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:3:135-160
 application
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:4:3-15:17
-MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:19:5-30:19
-MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:19:5-30:19
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:4:3-15:17
+MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:19:5-30:19
+MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:19:5-30:19
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\6f4d8c7809b92959c73a9f6e3f1c7f64\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\6f4d8c7809b92959c73a9f6e3f1c7f64\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\149475dbd72055698bb818708d787671\AndroidManifest.xml:22:5-23:19
@@ -77,136 +77,136 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\x16g015\.g
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\6f4d8c7809b92959c73a9f6e3f1c7f64\AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:4:90-122
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:4:88-120
 	android:debuggable
-		ADDED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:19:18-44
+		ADDED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:19:18-44
 	android:icon
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:4:58-89
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:4:58-87
 	android:banner
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:4:145-182
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:4:143-180
 	android:theme
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:4:16-57
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:4:16-57
 	android:isGame
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:4:123-144
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:4:121-142
 activity#jp.ac.fjbseisa.UnityPlayerActivity
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:5:5-11:16
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:5:5-11:16
 	android:screenOrientation
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:5:48-90
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:5:48-90
 	android:label
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:5:15-47
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:5:15-47
 	android:launchMode
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:5:91-122
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:5:91-122
 	android:hardwareAccelerated
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:5:305-340
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:5:305-340
 	android:configChanges
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:5:123-304
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:5:123-304
 	android:name
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:5:341-390
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:5:341-390
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:6:7-9:23
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:6:7-9:23
 action#android.intent.action.MAIN
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:7:9-61
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:7:9-61
 	android:name
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:7:17-58
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:7:17-58
 category#android.intent.category.LAUNCHER
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:8:9-69
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:8:9-69
 	android:name
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:8:19-66
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:8:19-66
 meta-data#unityplayer.UnityActivity
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:10:7-82
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:10:7-82
 	android:value
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:10:59-79
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:10:59-79
 	android:name
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:10:18-58
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:10:18-58
 meta-data#unity.build-id
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:12:5-101
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:12:5-101
 	android:value
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:12:46-98
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:12:46-98
 	android:name
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:12:16-45
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:12:16-45
 meta-data#unity.splash-mode
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:13:5-69
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:13:5-69
 	android:value
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:13:49-66
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:13:49-66
 	android:name
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:13:16-48
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:13:16-48
 meta-data#unity.splash-enable
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:14:5-74
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:14:5-74
 	android:value
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:14:51-71
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:14:51-71
 	android:name
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:14:16-50
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:14:16-50
 uses-feature#0x00020000
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:16:3-52
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:16:3-52
 	android:glEsVersion
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:16:17-49
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:16:17-49
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:18:3-76
-MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:16:5-79
-MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:16:5-79
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:18:3-76
+MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:16:5-79
+MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:16:5-79
 	android:name
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:18:20-74
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:18:20-74
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:19:3-73
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:19:3-73
 	android:name
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:19:20-71
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:19:20-71
 uses-permission#android.permission.INTERNET
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:21:3-65
-MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:14:5-67
-MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:14:5-67
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:21:3-65
+MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:14:5-67
+MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:14:5-67
 	android:name
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:21:20-62
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:21:20-62
 uses-permission#android.permission.CAMERA
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:22:3-63
-MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:15:5-65
-MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:15:5-65
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:22:3-63
+MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:15:5-65
+MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:15:5-65
 	android:name
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:22:20-60
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:22:20-60
 uses-feature#android.hardware.camera
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:23:3-83
-MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:12:5-60
-MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:12:5-60
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:23:3-83
+MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:12:5-60
+MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:12:5-60
 	android:required
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:23:56-80
-		MERGED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:23:56-80
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:23:56-80
+		MERGED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:23:56-80
 	android:name
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:23:17-55
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:23:17-55
 uses-feature#android.hardware.camera.autofocus
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:24:3-93
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:24:3-93
 	android:required
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:24:66-90
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:24:66-90
 	android:name
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:24:17-65
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:24:17-65
 uses-feature#android.hardware.camera.front
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:25:3-89
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:25:3-89
 	android:required
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:25:62-86
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:25:62-86
 	android:name
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:25:17-61
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:25:17-61
 uses-feature#android.hardware.touchscreen
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:26:3-88
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:26:3-88
 	android:required
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:26:61-85
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:26:61-85
 	android:name
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:26:17-60
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:26:17-60
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:27:3-99
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:27:3-99
 	android:required
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:27:72-96
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:27:72-96
 	android:name
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:27:17-71
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:27:17-71
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:28:3-108
+ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:28:3-108
 	android:required
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:28:81-105
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:28:81-105
 	android:name
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:28:17-80
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:28:17-80
 uses-sdk
-INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml
-INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml
-MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:8:5-10:41
-MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:8:5-10:41
+INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml
+INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml
+MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:8:5-10:41
+MERGED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\882a2b491c7f0e7bcab9c04e2bae3739\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\882a2b491c7f0e7bcab9c04e2bae3739\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\293a3914792dff8b12d802c6cb004eb3\AndroidManifest.xml:20:5-44
@@ -263,31 +263,31 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\x16g015\.gradl
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\18571bf17a8dfd8f96a91c67e48553b0\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c445029e29b54c70e70d4bd34478f8b5\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c445029e29b54c70e70d4bd34478f8b5\AndroidManifest.xml:20:5-44
-INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml
-INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml
+INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml
+INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml
-		INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml
+		INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml
+		INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml
-		ADDED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml
-		INJECTED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml
+		INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml
+		ADDED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml
+		INJECTED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:17:5-81
+ADDED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:17:5-81
 	android:name
-		ADDED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:17:22-78
+		ADDED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:17:22-78
 meta-data#com.google.ar.core
-ADDED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:22:9-24:40
+ADDED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:22:9-24:40
 	android:value
-		ADDED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:24:13-37
+		ADDED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:23:13-46
+		ADDED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:23:13-46
 uses-library#com.osterhoutgroup.api.ext
-ADDED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:27:9-29:40
+ADDED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:27:9-29:40
 	android:required
-		ADDED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:29:13-37
+		ADDED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\9f330f86e7efbdcb5572ab5aa1caf6e6\AndroidManifest.xml:28:13-54
+		ADDED from [:VuforiaWrapper:] C:\Users\x16g015\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\901c4293bf61635b69d8956c25d5e12f\AndroidManifest.xml:28:13-54
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from D:\work\x16g015\Export\AR Test000012\AR Test000012\src\main\AndroidManifest.xml:2:1-29:12 reason: com.vuforia.engine.ext requested WRITE_EXTERNAL_STORAGE
+IMPLIED from D:\work\x16g015\SORATE\src\main\AndroidManifest.xml:2:1-29:12 reason: com.vuforia.engine.ext requested WRITE_EXTERNAL_STORAGE

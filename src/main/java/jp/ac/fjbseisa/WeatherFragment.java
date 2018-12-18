@@ -65,7 +65,7 @@ public class WeatherFragment extends Fragment implements  View.OnClickListener{
         }else  if(v.getId()==R.id.b2){
             ((UnityPlayerActivity)getActivity()).changeFragment(MoonFragment.class);
         }else if(v.getId()==R.id.b3){
-            ((UnityPlayerActivity)getActivity()).changeFragment(WeatherFragment.class);
+            ((UnityPlayerActivity)getActivity()).changeFragment(SelectFragment.class);
         }
     }
 

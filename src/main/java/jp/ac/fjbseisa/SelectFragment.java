@@ -29,13 +29,13 @@ public class SelectFragment extends Fragment implements View.OnClickListener {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_select, container, false);
     }
-
+    Button b12;
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        view.findViewById(R.id.b1).setOnClickListener(this);
-
+        b12 = view.findViewById(R.id.b1);
+        b12.setOnClickListener(this);
         view.findViewById(R.id.b2).setOnClickListener(this);
 
         view.findViewById(R.id.b3).setOnClickListener(this);
@@ -46,6 +46,7 @@ public class SelectFragment extends Fragment implements View.OnClickListener {
 
         if(v.getId()==R.id.b1){
             ((UnityPlayerActivity)getActivity()).changeFragment(UnityFragment.class);
+
         }else if(v.getId()==R.id.b2){
             ((UnityPlayerActivity)getActivity()).changeFragment(MoonFragment.class);
         }else if(v.getId()==R.id.b3){

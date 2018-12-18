@@ -1,4 +1,4 @@
-#Tue Dec 18 09:28:31 JST 2018
-base.0=D\:\\work\\x16g015\\Export\\AR Test000012\\AR Test000012\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+#Tue Dec 18 14:13:17 JST 2018
+base.0=D\:\\work\\x16g015\\SORATE\\build\\intermediates\\transforms\\dexMerger\\debug\\10
 path.0=classes.dex
 renamed.0=classes.dex

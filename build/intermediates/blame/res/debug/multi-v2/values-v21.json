@@ -1,63 +1,44 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\work\\x16g015\\Export\\AR Test000012\\AR Test000012\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "D:\\work\\x16g015\\SORATE\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "D:\\work\\x16g015\\Export\\AR Test000012\\AR Test000012\\src\\main\\res\\values-v21\\ctiyName.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "53",
-                        "endColumns": "12",
-                        "endOffsets": "1666"
-                    },
-                    "to": {
-                        "startLines": "32",
-                        "startColumns": "4",
-                        "startOffsets": "1023",
-                        "endLines": "83",
-                        "endColumns": "12",
-                        "endOffsets": "2581"
-                    }
-                },
-                {
-                    "source": "D:\\work\\x16g015\\Export\\AR Test000012\\AR Test000012\\src\\main\\res\\values-v21\\ctiyList.xml",
+                    "source": "D:\\work\\x16g015\\SORATE\\src\\main\\res\\values-v21\\moonimg2.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "57",
                         "endLines": "31",
                         "endColumns": "12",
-                        "endOffsets": "1049"
+                        "endOffsets": "1138"
                     },
                     "to": {
-                        "startLines": "2",
+                        "startLines": "84",
                         "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "31",
+                        "startOffsets": "2586",
+                        "endLines": "113",
                         "endColumns": "12",
-                        "endOffsets": "1018"
+                        "endOffsets": "3638"
                     }
                 },
                 {
-                    "source": "D:\\work\\x16g015\\Export\\AR Test000012\\AR Test000012\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "D:\\work\\x16g015\\SORATE\\src\\main\\res\\values-v21\\moontext.xml",
                     "from": {
                         "startLines": "2",
-                        "startColumns": "0",
-                        "startOffsets": "53",
-                        "endLines": "3",
-                        "endColumns": "8",
-                        "endOffsets": "153"
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "31",
+                        "endColumns": "12",
+                        "endOffsets": "989"
                     },
                     "to": {
-                        "startLines": "370",
+                        "startLines": "114",
                         "startColumns": "4",
-                        "startOffsets": "21553",
-                        "endLines": "371",
-                        "endColumns": "8",
-                        "endOffsets": "21652"
+                        "startOffsets": "3643",
+                        "endLines": "143",
+                        "endColumns": "12",
+                        "endOffsets": "4546"
                     }
                 },
                 {
@@ -80,22 +61,22 @@
                     }
                 },
                 {
-                    "source": "D:\\work\\x16g015\\Export\\AR Test000012\\AR Test000012\\src\\main\\res\\values-v21\\moonimg2.xml",
+                    "source": "D:\\work\\x16g015\\SORATE\\src\\main\\res\\values-v21\\ctiyName.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "57",
-                        "endLines": "31",
+                        "endLines": "53",
                         "endColumns": "12",
-                        "endOffsets": "1138"
+                        "endOffsets": "1666"
                     },
                     "to": {
-                        "startLines": "84",
+                        "startLines": "32",
                         "startColumns": "4",
-                        "startOffsets": "2586",
-                        "endLines": "113",
+                        "startOffsets": "1023",
+                        "endLines": "83",
                         "endColumns": "12",
-                        "endOffsets": "3638"
+                        "endOffsets": "2581"
                     }
                 },
                 {
@@ -118,20 +99,22 @@
                     }
                 },
                 {
-                    "source": "D:\\work\\x16g015\\Export\\AR Test000012\\AR Test000012\\src\\main\\res\\values-v21\\colors.xml",
+                    "source": "D:\\work\\x16g015\\SORATE\\src\\main\\res\\values-v21\\ctiyList.xml",
                     "from": {
-                        "startLines": "5,2,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "214,57,162",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "255,99,208"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "31",
+                        "endColumns": "12",
+                        "endOffsets": "1049"
                     },
                     "to": {
-                        "startLines": "144,145,146",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "4551,4597,4644",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "4592,4639,4690"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "31",
+                        "endColumns": "12",
+                        "endOffsets": "1018"
                     }
                 },
                 {
@@ -154,22 +137,39 @@
                     }
                 },
                 {
-                    "source": "D:\\work\\x16g015\\Export\\AR Test000012\\AR Test000012\\src\\main\\res\\values-v21\\moontext.xml",
+                    "source": "D:\\work\\x16g015\\SORATE\\src\\main\\res\\values-v21\\colors.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "31",
-                        "endColumns": "12",
-                        "endOffsets": "989"
+                        "startLines": "5,2,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "214,57,162",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "255,99,208"
                     },
                     "to": {
-                        "startLines": "114",
+                        "startLines": "144,145,146",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "4551,4597,4644",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "4592,4639,4690"
+                    }
+                },
+                {
+                    "source": "D:\\work\\x16g015\\SORATE\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "0",
+                        "startOffsets": "53",
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "153"
+                    },
+                    "to": {
+                        "startLines": "370",
                         "startColumns": "4",
-                        "startOffsets": "3643",
-                        "endLines": "143",
-                        "endColumns": "12",
-                        "endOffsets": "4546"
+                        "startOffsets": "21553",
+                        "endLines": "371",
+                        "endColumns": "8",
+                        "endOffsets": "21652"
                     }
                 }
             ]
