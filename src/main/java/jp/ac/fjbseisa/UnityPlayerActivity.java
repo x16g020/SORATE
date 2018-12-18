@@ -6,27 +6,35 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.PixelFormat;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
-public class UnityPlayerActivity extends Activity
+public class UnityPlayerActivity extends AppCompatActivity
 {
-    protected UnityPlayer mUnityPlayer; // don't change the name of this variable; referenced from native code
 
+    protected UnityPlayer mUnityPlayer; // don't change the name of this variable; referenced from native code
+    //
+    public UnityPlayer getUnityPlayer(){
+        return mUnityPlayer;
+    }
     // Setup activity layout
-    @Override protected void onCreate(Bundle savedInstanceState)
-    {
+    @Override protected void onCreate(Bundle savedInstanceState) {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
 
 
-
         mUnityPlayer = new UnityPlayer(this);
-        setContentView(mUnityPlayer);
-        mUnityPlayer.requestFocus();
+        //setContentView(mUnityPlayer);
+        setContentView(R.layout.activity_main);
+        changeFragment(SelectFragment.class);
+
+        //mUnityPlayer.requestFocus();
     }
 
     @Override protected void onNewIntent(Intent intent)
@@ -116,4 +124,31 @@ public class UnityPlayerActivity extends Activity
     @Override public boolean onKeyDown(int keyCode, KeyEvent event)   { return mUnityPlayer.injectEvent(event); }
     @Override public boolean onTouchEvent(MotionEvent event)          { return mUnityPlayer.injectEvent(event); }
     /*API12*/ public boolean onGenericMotionEvent(MotionEvent event)  { return mUnityPlayer.injectEvent(event); }
+
+    @Override
+    public void onBackPressed() {
+        //mUnityPlayer.quit();
+        super.onBackPressed();
+    }
+
+    //フラグメント切り替え用
+    public void changeFragment(Class c){
+        changeFragment(c,null);
+    }
+    public void changeFragment(Class c,Bundle bundle) {
+        try {
+            Fragment f = (Fragment) c.newInstance();
+            if (bundle != null)
+                f.setArguments(bundle);
+            else
+                f.setArguments(new Bundle());
+
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.fragment, f);
+            ft.addToBackStack(null);
+            ft.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }

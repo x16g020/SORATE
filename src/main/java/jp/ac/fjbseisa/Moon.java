@@ -73,6 +73,8 @@ public class Moon extends AppCompatActivity implements MoonReader.OnMoonListener
     protected  void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_moon);
+
+
         //初期値入力
         day = 0;
         Moon = 6;
@@ -186,7 +188,7 @@ public class Moon extends AppCompatActivity implements MoonReader.OnMoonListener
         //ボタンの有効化
         upday.setEnabled(true);
         downday.setEnabled(true);
-        }
+    }
     // メニューをActivity上に設置する
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -247,10 +249,10 @@ public class Moon extends AppCompatActivity implements MoonReader.OnMoonListener
                 day--;
                 Moon--;
                 //6日前処理
-               if (Moon==0){
-                   //日付表示、月相状態表示
-                   DayCalendar(day);
-                   Moon(day,Moon);
+                if (Moon==0){
+                    //日付表示、月相状態表示
+                    DayCalendar(day);
+                    Moon(day,Moon);
                     //ボタンの無効化及び非表示
                     downday.setEnabled(false);
                     downday.setText("");

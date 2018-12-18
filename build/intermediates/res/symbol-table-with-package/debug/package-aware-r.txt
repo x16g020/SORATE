@@ -613,6 +613,7 @@ drawable weather_button
 id ALT
 id CTRL
 id FUNCTION
+id Fragment
 id META
 id Minus
 id MoonTime
@@ -656,6 +657,9 @@ id alertTitle
 id all
 id always
 id async
+id b1
+id b2
+id b3
 id before_day
 id before_hour
 id beginning
@@ -736,6 +740,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id forever
+id fragment
 id group_divider
 id home
 id homeAsUp
@@ -743,6 +748,7 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageView
 id info
 id italic
 id left
@@ -756,6 +762,7 @@ id menuItem2
 id menuItem3
 id message
 id middle
+id moon
 id multiply
 id never
 id none
@@ -815,6 +822,7 @@ id title_template
 id top
 id topPanel
 id uniform
+id unity
 id up
 id useLogo
 id weatherImage
@@ -860,6 +868,10 @@ layout activity_main
 layout activity_moon
 layout activity_weather
 layout fragment_ctiy
+layout fragment_moon
+layout fragment_select
+layout fragment_unity
+layout fragment_weather
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -952,6 +964,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
+string hello_blank_fragment
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

@@ -1712,6 +1712,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">AR Test000012</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
@@ -3088,7 +3089,8 @@
     <style name="ThemeOverlay.AppCompat.Dialog" parent="Base.ThemeOverlay.AppCompat.Dialog"/>
     <style name="ThemeOverlay.AppCompat.Dialog.Alert" parent="Base.ThemeOverlay.AppCompat.Dialog.Alert"/>
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
-    <style name="UnityThemeSelector" parent="BaseUnityTheme">
+    <style name="UnityThemeSelector" parent="Theme.AppCompat.Light.NoActionBar">
+    //
 	<item name="android:windowBackground">@android:color/black</item>
 </style>
     <style name="UnityThemeSelector.Translucent" parent="@style/UnityThemeSelector">

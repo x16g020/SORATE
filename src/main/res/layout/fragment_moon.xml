@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/moon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoonFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/MoonTime"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:text="読み込み中"
+            android:textAlignment="viewEnd"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/Moonimg"
+            android:layout_width="match_parent"
+            android:layout_height="234dp"
+            android:src="@android:color/black" />
+
+        <TextView
+            android:id="@+id/Mooninfo"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="読み込み中"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="読み込み中" />
+
+            <Button
+                android:id="@+id/Plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="読み込み中" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

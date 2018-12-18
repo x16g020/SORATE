@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Dec 14 10:07:02 JST 2018
+#Tue Dec 18 09:28:55 JST 2018
 124.path=classes.dex
 60.set=ASSET
 52.set=ASSET
