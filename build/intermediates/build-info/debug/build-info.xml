@@ -1,97 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="23"
+    api-level="24"
     build-mode="COLD"
     density="xxhdpi"
     format="10"
     ir-eligibility="COMPATIBLE"
     plugin-version="3.2.1"
-    timestamp="1545093924086"
-    token="6576244950679647113"
+    timestamp="1545103959642"
+    token="3962585295310748082"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="706" />
+        duration="834" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="289" />
+        duration="267" />
     <task
         name="verifier"
-        duration="11" />
+        duration="72" />
 
     <artifact
-        location="D:\work\x16g015\Export\AR Test000012\AR Test000012\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
-    <artifact
-        location="D:\work\x16g015\Export\AR Test000012\AR Test000012\build\intermediates\instant-run-apk\debug\AR Test000012-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1545092869699"
+        timestamp="1545102981817"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="D:\work\x16g015\Export\AR Test000012\AR Test000012\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\work\x16g015\Export\AR Test000012\AR Test000012\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\work\x16g015\Export\AR Test000012\AR Test000012\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\work\x16g015\Export\AR Test000012\AR Test000012\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\work\x16g015\Export\AR Test000012\AR Test000012\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\work\x16g015\Export\AR Test000012\AR Test000012\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\work\x16g015\Export\AR Test000012\AR Test000012\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\work\x16g015\Export\AR Test000012\AR Test000012\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\work\x16g015\Export\AR Test000012\AR Test000012\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\work\x16g015\Export\AR Test000012\AR Test000012\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\work\x16g015\Export\AR Test000012\AR Test000012\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\work\x16g015\Export\AR Test000012\AR Test000012\build\intermediates\instant-run-apk\debug\AR Test000012-debug.apk"
+            location="D:\work\x16g003\SORATE\build\intermediates\instant-run-apk\debug\SORATE-debug.apk"
             type="SPLIT_MAIN" />
+        <artifact
+            location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1545093428176"
+        timestamp="1545103959642"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="D:\work\x16g015\Export\AR Test000012\AR Test000012\build\intermediates\instant-run-apk\debug\AR Test000012-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1545093924086"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\work\x16g015\Export\AR Test000012\AR Test000012\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
-        <artifact
-            location="D:\work\x16g015\Export\AR Test000012\AR Test000012\build\intermediates\instant-run-apk\debug\AR Test000012-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
