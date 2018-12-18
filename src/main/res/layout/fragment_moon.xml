@@ -41,6 +41,27 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ar" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="tuki " />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="tenki" />
+
+            <Button
                 android:id="@+id/Minus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -53,6 +74,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="読み込み中" />
+
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

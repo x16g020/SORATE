@@ -31,7 +31,7 @@ import java.util.Map;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class WeatherFragment extends Fragment {
+public class WeatherFragment extends Fragment implements  View.OnClickListener{
 
 
     public WeatherFragment() {
@@ -46,6 +46,28 @@ public class WeatherFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_weather, container, false);
     }
 
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        view.findViewById(R.id.b1).setOnClickListener(this);
+
+        view.findViewById(R.id.b2).setOnClickListener(this);
+
+        view.findViewById(R.id.b3).setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View v) {
+
+        if(v.getId()==R.id.b1){
+            ((UnityPlayerActivity)getActivity()).changeFragment(UnityFragment.class);
+        }else  if(v.getId()==R.id.b2){
+            ((UnityPlayerActivity)getActivity()).changeFragment(MoonFragment.class);
+        }else if(v.getId()==R.id.b3){
+            ((UnityPlayerActivity)getActivity()).changeFragment(WeatherFragment.class);
+        }
+    }
 
 
     public class Weather  extends AppCompatActivity implements WeatherReader.OnStarListener, View.OnClickListener {

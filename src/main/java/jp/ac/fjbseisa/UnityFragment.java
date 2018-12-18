@@ -39,12 +39,21 @@ public class UnityFragment extends Fragment implements View.OnClickListener {
             parent.removeView(unityPlayer);
         ((FrameLayout)view.findViewById(R.id.unity)).addView(unityPlayer);
 
-        //view.findViewById(R.id.b1).setOnClickListener(this);
+        view.findViewById(R.id.b1).setOnClickListener(this);
+        view.findViewById(R.id.b2).setOnClickListener(this);
+        view.findViewById(R.id.b3).setOnClickListener(this);
 
     }
 
     @Override
     public void onClick(View v) {
 
+        if(v.getId()==R.id.b1){
+            ((UnityPlayerActivity)getActivity()).changeFragment(UnityFragment.class);
+        }else if(v.getId()==R.id.b2){
+            ((UnityPlayerActivity)getActivity()).changeFragment(MoonFragment.class);
+        }else if(v.getId()==R.id.b3){
+            ((UnityPlayerActivity)getActivity()).changeFragment(WeatherFragment.class);
+        }
     }
 }

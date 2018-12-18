@@ -8,7 +8,7 @@ android:layout_height="match_parent"
 android:background="@drawable/sunny_sky"
 tools:context=".Weather">
 
-<LinearLayout
+    <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -106,6 +106,34 @@ tools:context=".Weather">
             android:textColor="@android:color/background_light"
             android:textSize="20dp" />
     </LinearLayout>
-</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="501dp"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ar" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="tuki" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="tenki" />
+        </LinearLayout>
+    </LinearLayout>
 
 </FrameLayout>
