@@ -14,51 +14,45 @@ import android.widget.Button;
  */
 public class CtiyFragment extends DialogFragment implements View.OnClickListener {
 
-    ViewGroup containerR;
     public CtiyFragment() {
 
         // Required empty public constructor
     }
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_ctiy, container, false);
-
     }
+    //インタフェイスの定義
+    public interface APIWeatherListener{
+        void APIWeather(int value);
+    }
+    //インタフェイスのインスタンス保存用
+    APIWeatherListener mListener;
+
+    //ボタン動作のインスタンスを受け取る
+    public void setAPIWeatherListener(APIWeatherListener listener){
+        mListener =  listener;
+    }
+
     @Override
     public void onViewCreated(View view,  Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-
-        Button id0 = view.findViewById(R.id.ctiy0);
-        id0.setOnClickListener(this);
-        Button id1 = view.findViewById(R.id.ctiy1);
-        id1.setOnClickListener(this);
-        Button id2 = view.findViewById(R.id.ctiy2);
-        id2.setOnClickListener(this);
-        Button id3 = view.findViewById(R.id.ctiy3);
-        id3.setOnClickListener(this);
-        Button id4 = view.findViewById(R.id.ctiy4);
-        id4.setOnClickListener(this);
-        Button id5 = view.findViewById(R.id.ctiy5);
-        id5.setOnClickListener(this);
-        Button id6 = view.findViewById(R.id.ctiy6);
-        id6.setOnClickListener(this);
-        Button id7 = view.findViewById(R.id.ctiy7);
-        id7.setOnClickListener(this);
-        Button id8 = view.findViewById(R.id.ctiy8);
-        id8.setOnClickListener(this);
-        Button id9 = view.findViewById(R.id.ctiy9);
-        id9.setOnClickListener(this);
-        Button id10 = view.findViewById(R.id.ctiy10);
-        id10.setOnClickListener(this);
-        Button id11 = view.findViewById(R.id.ctiy11);
-        id11.setOnClickListener(this);
-        Button id12 = view.findViewById(R.id.ctiy12);
-        id12.setOnClickListener(this);
+      view.findViewById(R.id.ctiy0).setOnClickListener(this);
+      view.findViewById(R.id.ctiy1).setOnClickListener(this);
+      view.findViewById(R.id.ctiy2).setOnClickListener(this);
+      view.findViewById(R.id.ctiy3).setOnClickListener(this);
+      view.findViewById(R.id.ctiy4).setOnClickListener(this);
+      view.findViewById(R.id.ctiy5).setOnClickListener(this);
+      view.findViewById(R.id.ctiy6).setOnClickListener(this);
+      view.findViewById(R.id.ctiy7).setOnClickListener(this);
+      view.findViewById(R.id.ctiy8).setOnClickListener(this);
+      view.findViewById(R.id.ctiy9).setOnClickListener(this);
+      view.findViewById(R.id.ctiy10).setOnClickListener(this);
+      view.findViewById(R.id.ctiy11).setOnClickListener(this);
+      view.findViewById(R.id.ctiy12).setOnClickListener(this);
     }
 
     @Override
@@ -66,6 +60,7 @@ public class CtiyFragment extends DialogFragment implements View.OnClickListener
         int ctiycnt = 12;
         if(view.getId()==R.id.ctiy0){
             ctiycnt = 0;
+            mListener.APIWeather(0);
         }else if(view.getId()==R.id.ctiy1){
             ctiycnt = 1;
         }else if(view.getId()==R.id.ctiy2){
@@ -91,8 +86,7 @@ public class CtiyFragment extends DialogFragment implements View.OnClickListener
         }else if(view.getId()==R.id.ctiy12){
             ctiycnt = 12;
         }
-        Weather w = (Weather)getActivity();
-        w.APIWeather(ctiycnt);
+        mListener.APIWeather(ctiycnt);
         dismiss();
 
     }

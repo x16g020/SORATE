@@ -1,20 +1,15 @@
 package jp.ac.fjbseisa;
 
-import android.content.Intent;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -39,7 +34,12 @@ public class MoonFragment extends Fragment implements View.OnClickListener, Moon
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_moon, container, false);
+        View view = inflater.inflate(R.layout.fragment_moon, container, false);
+        mImg =  view.findViewById(R.id.Moonimg); //Moonimg(月相画像)
+        minfo = view.findViewById(R.id.Mooninfo);//Mooninfo(月相状態)
+        time = view.findViewById(R.id.MoonTime);//MoonTime(指定時刻)
+        return view;
+
     }
 
 
@@ -52,6 +52,7 @@ public class MoonFragment extends Fragment implements View.OnClickListener, Moon
         if (parent != null)
             parent.removeView(unityPlayer);
         ((LinearLayout) view.findViewById(R.id.moon)).addView(unityPlayer);
+
 
         //初期値入力
         day = 0;

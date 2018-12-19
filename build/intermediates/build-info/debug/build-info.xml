@@ -12,6 +12,7 @@
     format="10"
     plugin-version="3.2.1"
 <<<<<<< HEAD
+<<<<<<< HEAD
     timestamp="1545110521736"
     token="6576244950679647113"
     verifier="FULL_BUILD_REQUESTED" >
@@ -21,18 +22,26 @@
         duration="0" />
 =======
     timestamp="1545103959642"
+=======
+    timestamp="1545185785845"
+>>>>>>> origin/x16g003-2
     token="3962585295310748082"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
+<<<<<<< HEAD
         duration="834" />
+>>>>>>> origin/x16g003-2
+=======
+        duration="254" />
 >>>>>>> origin/x16g003-2
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
+<<<<<<< HEAD
 <<<<<<< HEAD
         duration="0" />
     <task
@@ -118,9 +127,12 @@
             type="SPLIT" />
 =======
         duration="267" />
+=======
+        duration="24" />
+>>>>>>> origin/x16g003-2
     <task
         name="verifier"
-        duration="72" />
+        duration="8" />
 
     <artifact
         location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_3.apk"
@@ -128,11 +140,16 @@
 
     <build
         build-mode="FULL"
-        timestamp="1545102981817"
+        timestamp="1545181100666"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
+<<<<<<< HEAD
             location="D:\work\x16g003\SORATE\build\intermediates\instant-run-apk\debug\SORATE-debug.apk"
             type="SPLIT_MAIN" />
+>>>>>>> origin/x16g003-2
+=======
+            location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
 >>>>>>> origin/x16g003-2
         <artifact
             location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -178,9 +195,6 @@
             type="SPLIT" />
         <artifact
             location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
             location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -229,11 +243,14 @@
         <artifact
             location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
+        <artifact
+            location="D:\work\x16g003\SORATE\build\intermediates\instant-run-apk\debug\SORATE-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1545103959642"
+        timestamp="1545185785845"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\work\x16g003\SORATE\build\intermediates\split-apk\debug\slices\slice_3.apk"

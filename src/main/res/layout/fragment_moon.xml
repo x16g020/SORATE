@@ -17,10 +17,12 @@
         <TextView
             android:id="@+id/MoonTime"
             android:layout_width="match_parent"
-            android:layout_height="73dp"
+            android:layout_height="65dp"
+            android:gravity="center_vertical|center"
             android:text="読み込み中"
             android:textAlignment="viewEnd"
-            android:textSize="20sp" />
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
 
         <ImageView
             android:id="@+id/Moonimg"
@@ -31,10 +33,11 @@
         <TextView
             android:id="@+id/Mooninfo"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_gravity="center_vertical"
+            android:layout_height="70dp"
+            android:gravity="center_vertical|center"
             android:text="読み込み中"
             android:textAlignment="center"
+            android:textColor="@android:color/background_light"
             android:textSize="36sp" />
 
         <LinearLayout
@@ -45,17 +48,23 @@
 
             <Button
                 android:id="@+id/Minus"
-                android:layout_width="wrap_content"
+                android:layout_width="60dp"
                 android:layout_height="match_parent"
+                android:layout_gravity="left"
                 android:layout_weight="1"
-                android:text="読み込み中" />
+                android:background="@drawable/my_button"
+                android:text="読み込み中"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/Plus"
-                android:layout_width="wrap_content"
+                android:layout_width="60dp"
                 android:layout_height="match_parent"
+                android:layout_gravity="right"
                 android:layout_weight="1"
-                android:text="読み込み中" />
+                android:background="@drawable/my_button"
+                android:text="読み込み中"
+                android:textSize="24sp" />
         </LinearLayout>
 
         <LinearLayout
