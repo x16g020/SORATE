@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 #Tue Dec 18 14:13:25 JST 2018
+=======
+#Tue Dec 18 12:03:55 JST 2018
+base.0=D\:\\work\\x16g003\\SORATE\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex
+>>>>>>> origin/x16g003-2
