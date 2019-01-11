@@ -218,6 +218,7 @@ public class Moon extends AppCompatActivity implements MoonReader.OnMoonListener
     }
     @Override
     public void onClick(View v) {
+
         switch (v.getId()){
             case R.id.Plus:
                 //ボタン有効化

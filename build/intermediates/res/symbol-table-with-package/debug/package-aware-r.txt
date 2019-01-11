@@ -583,10 +583,12 @@ drawable abc_vector_test
 drawable app_banner
 drawable atmosphere
 drawable atmosphere_sky
+drawable button_color
 drawable cloudy
 drawable cloudy_sky
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable main_button
 drawable my_button
 drawable notification_action_background
 drawable notification_bg
@@ -604,9 +606,11 @@ drawable prefectures_button
 drawable rainny
 drawable rainny_sky
 drawable snow
+drawable sora
 drawable sunny
 drawable sunny_sky
 drawable thunderstorm
+drawable title
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable weather_button

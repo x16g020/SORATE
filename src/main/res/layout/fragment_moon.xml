@@ -14,10 +14,49 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_color"
+                android:text="せいざ"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_color"
+                android:text="つき"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_color"
+                android:text="てんき"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
         <TextView
             android:id="@+id/MoonTime"
             android:layout_width="match_parent"
-            android:layout_height="65dp"
+            android:layout_height="60dp"
+            android:background="#002f40"
             android:gravity="center_vertical|center"
             android:text="読み込み中"
             android:textAlignment="viewEnd"
@@ -27,13 +66,15 @@
         <ImageView
             android:id="@+id/Moonimg"
             android:layout_width="match_parent"
-            android:layout_height="350dp"
+            android:layout_height="360dp"
+            android:layout_weight="1"
             android:src="@android:color/black" />
 
         <TextView
             android:id="@+id/Mooninfo"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="60dp"
+            android:background="#002f40"
             android:gravity="center_vertical|center"
             android:text="読み込み中"
             android:textAlignment="center"
@@ -42,7 +83,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="62dp"
+            android:layout_height="65dp"
             android:layout_weight="1"
             android:orientation="horizontal">
 
@@ -52,8 +93,9 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="left"
                 android:layout_weight="1"
-                android:background="@drawable/my_button"
+                android:background="@drawable/button_color"
                 android:text="読み込み中"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <Button
@@ -62,37 +104,10 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="right"
                 android:layout_weight="1"
-                android:background="@drawable/my_button"
+                android:background="@drawable/button_color"
                 android:text="読み込み中"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/b1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="ar" />
-
-            <Button
-                android:id="@+id/b2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="tuki " />
-
-            <Button
-                android:id="@+id/b3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="tenki" />
-
         </LinearLayout>
 
     </LinearLayout>

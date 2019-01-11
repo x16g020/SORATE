@@ -52,6 +52,7 @@ public class WeatherFragment extends Fragment implements WeatherReader.OnStarLis
     String month;
     String day;
     String hour;
+    String w_text;
 
     int month_int;
     int day_int;
@@ -129,8 +130,13 @@ public class WeatherFragment extends Fragment implements WeatherReader.OnStarLis
         day_before.setEnabled(true);
         hour_before.setEnabled(true);
 
-
-        if (view.getId() == R.id.before_day) {
+        if (view.getId()==R.id.b1){
+            ((UnityPlayerActivity)getActivity()).changeFragment(UnityFragment.class);
+        } else if (view.getId()==R.id.b2){
+            ((UnityPlayerActivity)getActivity()).changeFragment(MoonFragment.class);
+        } else if (view.getId()==R.id.b3){
+            ((UnityPlayerActivity)getActivity()).changeFragment(SelectFragment.class);
+        } else if (view.getId() == R.id.before_day) {
             cnt = cnt - 8;
         } else if (view.getId() == R.id.before_hour) {
             cnt = cnt - 1;
@@ -239,26 +245,25 @@ public class WeatherFragment extends Fragment implements WeatherReader.OnStarLis
 
         //風速の処理
         w_speed = Double.parseDouble(map.get("windSpeed_mps").toString());
-        windSpeed.setText("風速" + String.valueOf(w_speed) + "m/h");
+
+        if (w_speed >= 0 && w_speed < 0.4){
+            w_text = "無風";
+        } else if (w_speed >= 0.4 && w_speed < 10.0){
+            w_text = "弱い";
+        } else if (w_speed >= 10.0 && w_speed < 15.0){
+            w_text = "やや強い";
+        } else if (w_speed >= 15.0 && w_speed < 20.0){
+            w_text = "強い";
+        } else if (w_speed >= 20.0 && w_speed < 30.0){
+            w_text = "非常に強い";
+        } else if (w_speed >= 30.0){
+            w_text = "猛烈";
+        }
+
+        windSpeed.setText("風の強さ" + String.valueOf(w_text));
 
     }
-/*
-    public void APIWeather(Bundle args) {
-        int ctiycnt = args.getInt("key");
-        ctiyList = getResources().obtainTypedArray(R.array.default_ctiyList);
-        ctiynameList = getResources().obtainTypedArray(R.array.default_ctiyNameList);
-        ctiyID = ctiyList.getInteger(ctiycnt, 0);
-        String ctiynl = ctiynameList.getString(ctiycnt);
-        cnt = 0;
-        day_after.setEnabled(true);
-        hour_after.setEnabled(true);
-        day_before.setEnabled(false);
-        hour_before.setEnabled(false);
-        ctiyname.setText(ctiynl);
-        //URLをもとに天気情報を取得
-        WeatherReader.getWeather("http://api.openweathermap.org/data/2.5/forecast?id=" + ctiyID + "&APPID=d21a1076e3577e18ffe577b79bef2496&mode=xml", this);
-    }
-*/
+
     @Override
     public void APIWeather(int ctiycnt) {
         ctiyList = getResources().obtainTypedArray(R.array.default_ctiyList);

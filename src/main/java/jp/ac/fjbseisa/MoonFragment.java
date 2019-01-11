@@ -64,9 +64,18 @@ public class MoonFragment extends Fragment implements View.OnClickListener, Moon
         upday.setOnClickListener(this);
         downday = view.findViewById(R.id.Minus);
         downday.setOnClickListener(this);
+        b1 = view.findViewById(R.id.b1);
+        b1.setOnClickListener(this);
+        b2 = view.findViewById(R.id.b2);
+        b2.setOnClickListener(this);
+        b3 = view.findViewById(R.id.b3);
+        b3.setOnClickListener(this);
         //読み込み完了まで無効化
         upday.setEnabled(false);
         downday.setEnabled(false);
+        b1.setEnabled(false);
+        b2.setEnabled(false);
+        b3.setEnabled(false);
     }
 
     Calendar calendar; //年月日取得用のカレンダー
@@ -92,6 +101,10 @@ public class MoonFragment extends Fragment implements View.OnClickListener, Moon
     Button downday;//日付減算ボタン
     int day; //日付処理用(初期値0)
     int Moon;//月相処理用(初期値6)
+
+    Button b1;
+    Button b2;
+    Button b3;
 
     //画面下部ボタン日付表示処理
     public void DayCalendar(int day) {
@@ -222,11 +235,22 @@ public class MoonFragment extends Fragment implements View.OnClickListener, Moon
         //ボタンの有効化
         upday.setEnabled(true);
         downday.setEnabled(true);
+        b1.setEnabled(true);
+        b2.setEnabled(true);
+        b3.setEnabled(true);
     }
 
     // メニューをActivity上に設置する
     @Override
     public void onClick(View v) {
+
+//        if (v.getId()==R.id.b1){
+//            ((UnityPlayerActivity)getActivity()).changeFragment(UnityFragment.class);
+//        } else if (v.getId()==R.id.b2){
+//            ((UnityPlayerActivity)getActivity()).changeFragment(SelectFragment.class);
+//        } else if (v.getId()==R.id.b3){
+//            ((UnityPlayerActivity)getActivity()).changeFragment(WeatherFragment.class);
+
         switch (v.getId()) {
             case R.id.Plus:
                 //ボタン有効化
@@ -272,6 +296,16 @@ public class MoonFragment extends Fragment implements View.OnClickListener, Moon
                 Moon(day, Moon);
                 //処理終了
                 break;
+            case R.id.b1:
+                ((UnityPlayerActivity)getActivity()).changeFragment(UnityFragment.class);
+                break;
+            case R.id.b2:
+                ((UnityPlayerActivity)getActivity()).changeFragment(SelectFragment.class);
+                break;
+            case R.id.b3:
+                ((UnityPlayerActivity)getActivity()).changeFragment(WeatherFragment.class);
+                break;
+
         }
     }
 }

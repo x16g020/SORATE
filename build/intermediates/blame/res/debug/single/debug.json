@@ -768,6 +768,10 @@
         "source": "C:\\Users\\x16g015\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\882a2b491c7f0e7bcab9c04e2bae3739\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "D:\\work\\x16g015\\SORATE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_button_color.xml.flat",
+        "source": "D:\\work\\x16g015\\SORATE\\src\\main\\res\\drawable-xhdpi\\button_color.xml"
+    },
+    {
         "merged": "D:\\work\\x16g015\\SORATE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_thunderstorm.png.flat",
         "source": "D:\\work\\x16g015\\SORATE\\src\\main\\res\\drawable-xhdpi\\thunderstorm.png"
     },
@@ -1022,6 +1026,10 @@
     {
         "merged": "D:\\work\\x16g015\\SORATE\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\x16g015\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\882a2b491c7f0e7bcab9c04e2bae3739\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\work\\x16g015\\SORATE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_title.png.flat",
+        "source": "D:\\work\\x16g015\\SORATE\\src\\main\\res\\drawable-xhdpi\\title.png"
     },
     {
         "merged": "D:\\work\\x16g015\\SORATE\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_tuki00.png.flat",
@@ -1424,6 +1432,10 @@
         "source": "C:\\Users\\x16g015\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\882a2b491c7f0e7bcab9c04e2bae3739\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
+        "merged": "D:\\work\\x16g015\\SORATE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_sora.png.flat",
+        "source": "D:\\work\\x16g015\\SORATE\\src\\main\\res\\drawable-xhdpi\\sora.png"
+    },
+    {
         "merged": "D:\\work\\x16g015\\SORATE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\x16g015\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\882a2b491c7f0e7bcab9c04e2bae3739\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
@@ -1650,6 +1662,10 @@
     {
         "merged": "D:\\work\\x16g015\\SORATE\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
         "source": "C:\\Users\\x16g015\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\ade9d81bdf86d773dc1514772fcc96e3\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\work\\x16g015\\SORATE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_main_button.xml.flat",
+        "source": "D:\\work\\x16g015\\SORATE\\src\\main\\res\\drawable-xhdpi\\main_button.xml"
     },
     {
         "merged": "D:\\work\\x16g015\\SORATE\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
