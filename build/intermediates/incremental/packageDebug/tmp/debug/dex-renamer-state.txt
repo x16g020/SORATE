@@ -1,4 +1,4 @@
-#Fri Jan 11 11:41:15 JST 2019
+#Fri Jan 11 12:28:52 JST 2019
 base.0=D\:\\work\\x16g015\\SORATE\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

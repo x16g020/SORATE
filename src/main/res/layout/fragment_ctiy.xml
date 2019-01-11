@@ -19,6 +19,7 @@
             <LinearLayout
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
                 android:orientation="vertical">
 
 
@@ -33,12 +34,13 @@
                     android:textStyle="bold" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy0"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/button_color"
                     android:text="北海道"
-                    />
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/Region01"
@@ -50,46 +52,58 @@
                     android:textStyle="bold" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="青森県" />
+                    android:background="@drawable/button_color"
+                    android:text="青森県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="岩手県" />
+                    android:background="@drawable/button_color"
+                    android:text="岩手県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="宮城県" />
+                    android:background="@drawable/button_color"
+                    android:text="宮城県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="秋田県" />
+                    android:background="@drawable/button_color"
+                    android:text="秋田県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="山形県" />
+                    android:background="@drawable/button_color"
+                    android:text="山形県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="福島県" />
+                    android:background="@drawable/button_color"
+                    android:text="福島県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/Region02"
@@ -102,53 +116,67 @@
 
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="茨城県" />
+                    android:background="@drawable/button_color"
+                    android:text="茨城県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="栃木県" />
+                    android:background="@drawable/button_color"
+                    android:text="栃木県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="群馬県" />
+                    android:background="@drawable/button_color"
+                    android:text="群馬県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="埼玉県" />
+                    android:background="@drawable/button_color"
+                    android:text="埼玉県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="千葉県" />
+                    android:background="@drawable/button_color"
+                    android:text="千葉県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="東京都" />
+                    android:background="@drawable/button_color"
+                    android:text="東京都"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="神奈川県" />
+                    android:background="@drawable/button_color"
+                    android:text="神奈川県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/Region03"
@@ -160,67 +188,85 @@
                     android:textStyle="bold" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="新潟県" />
+                    android:background="@drawable/button_color"
+                    android:text="新潟県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="富山県" />
+                    android:background="@drawable/button_color"
+                    android:text="富山県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="石川県" />
+                    android:background="@drawable/button_color"
+                    android:text="石川県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="福井県" />
+                    android:background="@drawable/button_color"
+                    android:text="福井県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="山梨県" />
+                    android:background="@drawable/button_color"
+                    android:text="山梨県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="長野県" />
+                    android:background="@drawable/button_color"
+                    android:text="長野県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy20"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="岐阜県" />
+                    android:background="@drawable/button_color"
+                    android:text="岐阜県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy21"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="静岡県" />
+                    android:background="@drawable/button_color"
+                    android:text="静岡県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy22"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="愛知県" />
+                    android:background="@drawable/button_color"
+                    android:text="愛知県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/Region04"
@@ -232,53 +278,67 @@
                     android:textStyle="bold" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy23"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="三重県" />
+                    android:background="@drawable/button_color"
+                    android:text="三重県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy24"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="滋賀県" />
+                    android:background="@drawable/button_color"
+                    android:text="滋賀県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy25"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="京都府" />
+                    android:background="@drawable/button_color"
+                    android:text="京都府"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy26"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="大阪府" />
+                    android:background="@drawable/button_color"
+                    android:text="大阪府"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy27"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="兵庫県" />
+                    android:background="@drawable/button_color"
+                    android:text="兵庫県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy28"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="奈良県" />
+                    android:background="@drawable/button_color"
+                    android:text="奈良県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy29"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="和歌山県" />
+                    android:background="@drawable/button_color"
+                    android:text="和歌山県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
 
                 <TextView
@@ -289,40 +349,51 @@
                     android:text="中国地方"
                     android:textSize="24sp"
                     android:textStyle="bold" />
+
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy30"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="鳥取県" />
+                    android:background="@drawable/button_color"
+                    android:text="鳥取県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy31"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="島根県" />
+                    android:background="@drawable/button_color"
+                    android:text="島根県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy32"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="岡山県" />
+                    android:background="@drawable/button_color"
+                    android:text="岡山県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy33"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="広島県" />
+                    android:background="@drawable/button_color"
+                    android:text="広島県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy34"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="山口県" />
+                    android:background="@drawable/button_color"
+                    android:text="山口県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/Region06"
@@ -334,32 +405,40 @@
                     android:textStyle="bold" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy35"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="徳島県" />
+                    android:background="@drawable/button_color"
+                    android:text="徳島県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy36"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="香川県" />
+                    android:background="@drawable/button_color"
+                    android:text="香川県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy37"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="愛媛県" />
+                    android:background="@drawable/button_color"
+                    android:text="愛媛県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy38"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="高知県" />
+                    android:background="@drawable/button_color"
+                    android:text="高知県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/Region07"
@@ -371,60 +450,76 @@
                     android:textStyle="bold" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy39"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="福岡県" />
+                    android:background="@drawable/button_color"
+                    android:text="福岡県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy40"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="佐賀県" />
+                    android:background="@drawable/button_color"
+                    android:text="佐賀県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy41"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="長崎県" />
+                    android:background="@drawable/button_color"
+                    android:text="長崎県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy42"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="熊本県" />
+                    android:background="@drawable/button_color"
+                    android:text="熊本県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy43"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="大分県" />
+                    android:background="@drawable/button_color"
+                    android:text="大分県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy44"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="宮崎県" />
+                    android:background="@drawable/button_color"
+                    android:text="宮崎県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy45"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="鹿児島県" />
+                    android:background="@drawable/button_color"
+                    android:text="鹿児島県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:textSize="20sp"
                     android:id="@+id/ctiy46"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="沖縄県" />
+                    android:background="@drawable/button_color"
+                    android:text="沖縄県"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
 
             </LinearLayout>
         </ScrollView>

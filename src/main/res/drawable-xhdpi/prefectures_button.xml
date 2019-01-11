@@ -13,8 +13,8 @@
                     android:shape="rectangle">
                     <gradient
                         android:angle="270"
-                        android:startColor="#7700E6E6"
-                        android:endColor="#7700E6E6"
+                        android:startColor="#005d7f"
+                        android:endColor="#008cbf"
                         android:type="linear" />
                     <stroke
                         android:width="1dip"
@@ -34,8 +34,8 @@
                     android:shape="rectangle">
                     <gradient
                         android:angle="270"
-                        android:startColor="#7700E6E6"
-                        android:endColor="#7700E6E6"
+                        android:startColor="#005d7f"
+                        android:endColor="#008cbf"
                         android:type="linear" />
                     <stroke
                         android:width="1dip"
@@ -54,7 +54,7 @@
                     android:shape="rectangle">
                     <gradient
                         android:angle="270"
-                        android:startColor="#005d7f"
+                        android:startColor="#008cbf"
                         android:endColor="#005d7f"
                         android:type="linear" />
                     <stroke
