@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="default_moontext2">
+        <item>"しんげつ"</item> //0
+        <item>"ふつかづき"</item> //1
+        <item>"みかづき"</item> //2
+        <item>""</item> //3
+        <item>""</item> //4
+        <item>""</item> //5
+        <item>""</item> //6
+        <item>"じょうげんのつき"</item> //7
+        <item>""</item> //8
+        <item>""</item> //9
+        <item>"とおかあまりのつき"</item> //10
+        <item>""</item> //11
+        <item>"じゅうさんや"</item> //12
+        <item>"こもちづき"</item> //13
+        <item>"まんげつ"</item> //14
+        <item>"いざよい"</item> //15
+        <item>"たちまちづき"</item> //16
+        <item>"いまちづき"</item> //17
+        <item>"ねまちづき"</item> //18
+        <item>"ふけまちづき"</item> //19
+        <item>"にじゅうさんや"</item> //20
+        <item>"かげんのつき"</item> //21
+        <item>""</item> //22
+        <item>""</item> //23
+        <item>""</item> //24
+        <item>"ありあけづき"</item> //25
+        <item>"ぎょうげつ"</item> //26
+        <item>"つごもり"</item> //27
+    </array>
+</resources>

@@ -15,6 +15,7 @@ array default_ctiyList
 array default_ctiyNameList
 array default_moonimg2
 array default_moontext
+array default_moontext2
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -53,6 +54,7 @@ attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
 attr alertDialogStyle
 attr alertDialogTheme
+attr alignmentMode
 attr allowStacking
 attr alpha
 attr alphabeticModifiers
@@ -100,6 +102,8 @@ attr colorError
 attr colorPrimary
 attr colorPrimaryDark
 attr colorSwitchThumbNormal
+attr columnCount
+attr columnOrderPreserved
 attr commitIcon
 attr contentDescription
 attr contentInsetEnd
@@ -162,9 +166,16 @@ attr layout
 attr layout_anchor
 attr layout_anchorGravity
 attr layout_behavior
+attr layout_column
+attr layout_columnSpan
+attr layout_columnWeight
 attr layout_dodgeInsetEdges
+attr layout_gravity
 attr layout_insetEdge
 attr layout_keyline
+attr layout_row
+attr layout_rowSpan
+attr layout_rowWeight
 attr lineHeight
 attr listChoiceBackgroundIndicator
 attr listDividerAlertDialog
@@ -186,6 +197,7 @@ attr navigationContentDescription
 attr navigationIcon
 attr navigationMode
 attr numericModifiers
+attr orientation
 attr overlapAnchor
 attr paddingBottomNoButtons
 attr paddingEnd
@@ -206,6 +218,8 @@ attr radioButtonStyle
 attr ratingBarStyle
 attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
+attr rowCount
+attr rowOrderPreserved
 attr searchHintIcon
 attr searchIcon
 attr searchViewStyle
@@ -275,6 +289,7 @@ attr track
 attr trackTint
 attr trackTintMode
 attr ttcIndex
+attr useDefaultMargins
 attr viewInflaterClass
 attr voiceIcon
 attr windowActionBar
@@ -460,6 +475,7 @@ dimen compat_button_padding_vertical_material
 dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
+dimen default_gap
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
 dimen highlight_alpha_material_colored
@@ -623,6 +639,7 @@ id Minus
 id MoonTime
 id Moonimg
 id Mooninfo
+id Mooninfo2
 id Plus
 id Region00
 id Region01
@@ -658,6 +675,8 @@ id add
 id after_day
 id after_hour
 id alertTitle
+id alignBounds
+id alignMargins
 id all
 id always
 id async
@@ -748,6 +767,7 @@ id fragment
 id group_divider
 id home
 id homeAsUp
+id horizontal
 id icon
 id icon_group
 id ifRoom
@@ -814,6 +834,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id temperature
+id temperatureText
 id text
 id text2
 id textSpacerNoButtons
@@ -829,9 +850,11 @@ id uniform
 id unity
 id up
 id useLogo
+id vertical
 id weatherImage
 id weather_frame
 id windspeed
+id windspeedText
 id withText
 id wrap_content
 integer abc_config_activityDefaultDur
@@ -1351,6 +1374,8 @@ styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchSt
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
+styleable GridLayout alignmentMode columnCount columnOrderPreserved orientation rowCount rowOrderPreserved useDefaultMargins
+styleable GridLayout_Layout android_layout_width android_layout_height android_layout_margin android_layout_marginLeft android_layout_marginTop android_layout_marginRight android_layout_marginBottom layout_column layout_columnSpan layout_columnWeight layout_gravity layout_row layout_rowSpan layout_rowWeight
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset

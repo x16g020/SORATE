@@ -241,7 +241,7 @@ public class WeatherFragment extends Fragment implements WeatherReader.OnStarLis
         BigDecimal bd = new BigDecimal(temperature);
         BigDecimal temp_bd = bd.setScale(0, BigDecimal.ROUND_HALF_UP);
 
-        temp.setText("気温" + String.valueOf(temp_bd) + "℃");
+        temp.setText(String.valueOf(temp_bd) + "℃");
 
         //風速の処理
         w_speed = Double.parseDouble(map.get("windSpeed_mps").toString());
@@ -260,7 +260,7 @@ public class WeatherFragment extends Fragment implements WeatherReader.OnStarLis
             w_text = "猛烈";
         }
 
-        windSpeed.setText("風の強さ" + String.valueOf(w_text));
+        windSpeed.setText(String.valueOf(w_text));
 
     }
 

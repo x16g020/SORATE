@@ -8,7 +8,7 @@
         <item>""</item> //4
         <item>""</item> //5
         <item>""</item> //6
-        <item>"上弦"</item> //7
+        <item>"上弦の月"</item> //7
         <item>""</item> //8
         <item>""</item> //9
         <item>"十日余りの月"</item> //10
@@ -20,14 +20,14 @@
         <item>"立待月"</item> //16
         <item>"居町月"</item> //17
         <item>"寝待月"</item> //18
-        <item>"有明月"</item> //19
+        <item>"更待月"</item> //19
         <item>"二十三屋夜"</item> //20
-        <item>"下弦"</item> //21
+        <item>"下弦の月"</item> //21
         <item>""</item> //22
         <item>""</item> //23
         <item>""</item> //24
-        <item>"二十六夜"</item> //25
-        <item>"下弦の三日月"</item> //26
+        <item>"有明月"</item> //25
+        <item>"暁月"</item> //26
         <item>"晦"</item> //27
     </array>
 </resources>

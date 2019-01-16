@@ -93,8 +93,11 @@ public class MoonFragment extends Fragment implements View.OnClickListener, Moon
     ImageView mImg; //画像表示用
     Drawable mcount; //リストにナンバーＩＤを付与
     TypedArray infoArray; //月相の名前リスト
+    TypedArray infoArray2; //月相の名前(読み仮名)リスト
     TextView minfo; //表示用
+    TextView minfo2; //フリガナ表示用
     String mtext; //String挿入用
+    String mtext2; //String挿入用
     ArrayList<Integer> moonlist; //画像及び状態ID格納用
     int getmoon;
     Button upday;//日付加算ボタン
@@ -132,6 +135,8 @@ public class MoonFragment extends Fragment implements View.OnClickListener, Moon
         mselect = moonlist.get(b);//月相状態ID
         mtext = infoArray.getString(mselect);//IDから対応したTextを取り出す
         minfo.setText(mtext); //minfoに結果を送る
+        mtext2 = infoArray2.getString(mselect);//IDから対応したText(フリガナ)を取り出す
+        minfo2.setText(mtext2); //minfo2に結果を送る
         mcount = imgArray.getDrawable(mselect);//IDから対応したimgを取り出す
         mImg.setImageDrawable(mcount); //mImgに結果を送る
     }
@@ -140,9 +145,11 @@ public class MoonFragment extends Fragment implements View.OnClickListener, Moon
     public void onMoon(List<Map> Moons) {
         mImg = (ImageView) getView().findViewById(R.id.Moonimg); //Moonimg(月相画像)
         minfo = (TextView) getView().findViewById(R.id.Mooninfo);//Mooninfo(月相状態)
+        minfo2 = (TextView) getView().findViewById(R.id.Mooninfo2);//Mooninfo(月相状態)
         time = (TextView) getView().findViewById(R.id.MoonTime);//MoonTime(指定時刻)
         imgArray = getResources().obtainTypedArray(R.array.default_moonimg2); //moonimg2.xmlから画像アレイリスト準備
         infoArray = getResources().obtainTypedArray(R.array.default_moontext); //moontext.xnlから状態アレイリスト準備
+        infoArray2 = getResources().obtainTypedArray(R.array.default_moontext2); //moontext.xnlから状態アレイリスト準備
         calendar = Calendar.getInstance(); //生成
         ydata = calendar.get(Calendar.YEAR); //年
         mdata = calendar.get(Calendar.MONTH) + 1; //月

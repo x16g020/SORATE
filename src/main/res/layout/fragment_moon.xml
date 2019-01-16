@@ -71,9 +71,20 @@
             android:src="@android:color/black" />
 
         <TextView
+            android:id="@+id/Mooninfo2"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="#002f40"
+            android:gravity="center_vertical|center"
+            android:text="よみこみちゅう"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="10dp" />
+
+        <TextView
             android:id="@+id/Mooninfo"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="45dp"
             android:background="#002f40"
             android:gravity="center_vertical|center"
             android:text="読み込み中"
