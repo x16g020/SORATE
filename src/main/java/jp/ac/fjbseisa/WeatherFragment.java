@@ -117,6 +117,7 @@ public class WeatherFragment extends Fragment implements WeatherReader.OnStarLis
         day_before.setEnabled(false);
         hour_before.setEnabled(false);
         CtiyFragment C = new CtiyFragment();
+        WeatherReader.getWeather("http://api.openweathermap.org/data/2.5/forecast?id=1850144&APPID=d21a1076e3577e18ffe577b79bef2496&mode=xml", this);
         //ダイアログのボタンが押された場合の動作
         C.setAPIWeatherListener(this);
         C.show(getFragmentManager(),"");

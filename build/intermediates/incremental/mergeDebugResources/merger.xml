@@ -2944,7 +2944,7 @@
         <item>"有明月"</item> //25
         <item>"暁月"</item> //26
         <item>"晦"</item> //27
-    </array></file><file path="D:\work\x16g015\SORATE\src\main\res\values-v21\styles.xml" qualifiers="v21"><style name="BaseUnityTheme" parent="android:Theme.Material.Light.NoActionBar.Fullscreen">
+    </array></file><file path="D:\work\x16g015\SORATE\src\main\res\values-v21\styles.xml" qualifiers="v21"><style name="BaseUnityTheme" parent="Theme.AppCompat.Light.NoActionBar">
 </style></file></source><source path="D:\work\x16g015\SORATE\build\generated\res\rs\debug"/><source path="D:\work\x16g015\SORATE\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\work\x16g015\SORATE\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\work\x16g015\SORATE\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
         <attr format="reference" name="buttonPanelSideLayout"/>
