@@ -160,7 +160,7 @@ tools:context=".Weather">
                 android:layout_weight="1"
                 android:background="@drawable/button_color"
                 android:gravity="center"
-                android:text="１時間前"
+                android:text="３時間前"
                 android:textColor="@android:color/background_light"
                 android:textSize="20dp" />
 
@@ -171,7 +171,7 @@ tools:context=".Weather">
                 android:layout_weight="1"
                 android:background="@drawable/button_color"
                 android:gravity="center"
-                android:text="１時間後"
+                android:text="３時間後"
                 android:textColor="@android:color/background_light"
                 android:textSize="20dp" />
 
